@@ -1,0 +1,18 @@
+Build requires :
+
+- Makefile
+- git
+- a valid node & npm installation
+- npm packages coffee-script, uglify-js, docco
+
+Commands :
+
+    make install   : Install npm packages and build lib
+
+    make lib       : Build Node library [default]
+    make dist      : Build DOM library
+
+    make doc       : Build documentation
+
+    make clean     : Clean lib, build, doc
+    make clean_all : clean + node_modules + dist !!

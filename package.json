@@ -1,0 +1,21 @@
+{
+  "name": "mylibrary",
+  "private": true,
+  "title": "My New Library",
+  "author": "My Author",
+  "description": "My New Library",
+  "version": "0.1.0",
+  "main": "./lib/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": ">=1.4.0",
+    "uglify-js": "~2.2",
+    "docco": "0.4.x"
+  },
+  "scripts": {
+    "postinstall": "make clean && make lib"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
